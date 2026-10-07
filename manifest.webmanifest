@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Manus Lite · Agent 工作台",
+  "short_name": "Manus Lite",
+  "description": "可使用工具、記憶與 Skills 的個人 AI Agent 工作台，支援 Puter / Gemini / OpenAI 相容 API 與本機 LLM。",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#f6f8fb",
+  "theme_color": "#336cff",
+  "lang": "zh-Hant",
+  "dir": "ltr",
+  "orientation": "any",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "LLM 設定", "short_name": "設定", "url": "./?view=settings", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "程式沙箱", "short_name": "沙箱", "url": "./?view=sandbox", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
